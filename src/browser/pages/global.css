@@ -98,3 +98,75 @@ canvas {
   top: 0;
   left: 0;
 }
+
+/* Mobile-Friendly Adjustments */
+@media (max-width: 768px) {
+  .center-container {
+    padding: 10px;
+  }
+
+  .card-box {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .card-box > .header {
+    padding: 20px;
+  }
+
+  .card-box > .header > .main {
+    font-size: 1.25rem;
+  }
+
+  .card-box > .header > .sub {
+    font-size: 0.9rem;
+    margin-top: 8px;
+  }
+
+  .card-box > .content {
+    padding: 20px;
+  }
+
+  .-button {
+    padding: 15px 18px;
+    font-size: 0.9rem;
+  }
+
+  /* Adjust canvas size if needed */
+  canvas {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Extra Small Devices */
+@media (max-width: 480px) {
+  .card-box {
+    padding: 10px;
+  }
+
+  .card-box > .header {
+    padding: 15px;
+  }
+
+  .card-box > .header > .main {
+    font-size: 1.1rem;
+  }
+
+  .card-box > .header > .sub {
+    font-size: 0.85rem;
+  }
+
+  .card-box > .content {
+    padding: 15px;
+  }
+
+  .-button {
+    padding: 12px 15px;
+    font-size: 0.8rem;
+  }
+
+  .center-container {
+    padding: 8px;
+  }
+}
